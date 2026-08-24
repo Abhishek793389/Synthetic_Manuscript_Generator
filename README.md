@@ -1,4 +1,4 @@
-# Synthetic_Manuscript_Generator
+
 
 # Synthetic Manuscript Generator
 
