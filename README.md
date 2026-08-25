@@ -82,17 +82,22 @@ For each script:
 
 The generated dataset is hosted separately from the source code on Hugging Face.
 
-**Dataset name:**
+## Dataset
 
-`YOUR_HF_DATASET_NAME`
+The generated synthetic manuscript dataset is available on Hugging Face:
 
-**Hugging Face repository:**
+https://huggingface.co/datasets/Abhishek793389/synthetic-indic-manuscripts/tree/main
 
-`https://huggingface.co/datasets/YOUR_USERNAME/YOUR_HF_DATASET_NAME`
+The dataset contains:
 
-The dataset contains three script subsets:
+- Devanagari: 100 images
+- Modi: 100 images
+- Sharada: 100 images
 
-```text
-sharada
-devanagari
-modi
+Each script contains:
+
+- 85 training samples
+- 10 validation samples
+- 5 test samples
+
+Every manuscript image has a corresponding Markdown annotation file with the same filename.
